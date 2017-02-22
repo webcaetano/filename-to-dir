@@ -1,0 +1,46 @@
+{
+  "name": "filename-to-dir",
+  "version": "0.0.0",
+  "description": "Use filenames to create folders schema",
+  "main": "index.js",
+  "author": "Andre Caetano",
+  "license": "MIT",
+  "bin": {
+    "namedir": "cli.js"
+  },
+  "scripts": {
+    "test": "ava"
+  },
+  "dependencies": {
+    "async": "^2.1.2",
+    "cp-file": "^4.1.1",
+    "glob": "^7.1.1",
+    "lodash": "^4.13.1",
+    "meow": "^3.7.0"
+  },
+  "devDependencies": {
+    "ava": "^0.18.2",
+    "data-creatures": "^1.0.1",
+    "del": "^2.2.2",
+    "mkdirp": "^0.5.1",
+    "tempfile": "^1.1.1"
+  },
+  "keywords": [
+    "cli-app",
+    "cli",
+    "flatten",
+    "dirname",
+    "filename",
+    "mv",
+    "copy",
+    "file",
+    "files",
+    "fs",
+    "glob",
+    "file-system"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/webcaetano/filename-to-dir"
+  }
+}
