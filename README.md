@@ -85,6 +85,9 @@ Examples
 	namedir "**/*.png" "destFolder/" --split "@"
 ```
 
+## Check Also
+
+[flatten-dirname](https://github.com/webcaetano/flatten-dirname)
 
 ## License
 
